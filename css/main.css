@@ -1,0 +1,53 @@
+nav {
+    height: 75px;
+    line-height: 75px;
+    }
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 75px;
+    line-height: 75px;
+}
+
+nav .button-collapse i {
+    height: 75px;
+    line-height: 75px;
+}
+
+nav .brand-logo { 
+    font-size: 1.5rem; 
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 75px;
+        line-height: 75px;
+    }
+}
+
+.below {
+    top: 100%;
+    width: inherit;
+    position: absolute;
+}
+
+.larger {
+    font-size: 18px;
+}
+
+.largest {
+    font-size: 26px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .clickable:hover {
+    cursor: pointer; cursor: hand;
+  }
