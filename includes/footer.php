@@ -8,10 +8,10 @@
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
             <ul>
-              <li><a class="white-text" href="about.php">About Us</a></li>
-              <li><a class="white-text" href="membership.html">Membership</a></li>
-              <li><a class="white-text" href="#!">Events</a></li>
-              <li><a class="white-text" href="#!">Important Links</a></li>
+              <li><a class="white-text" href="officersanddirectors.php">Officers and Directors</a></li>
+              <li><a class="white-text" href="membershipform.php">Membership</a></li>
+              <li><a class="white-text" href="events.php">Events</a></li>
+              <li><a class="white-text" href="links.php">Important Links</a></li>
               <li><a class="white-text" href="controller.php?action=show_admin_login">Admin</a></li>
             </ul>
           </div>
