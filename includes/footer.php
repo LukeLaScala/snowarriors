@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Indian Lake Snowarriors</h5>
+            <h5><a class="white-text" href="index.php">Indian Lake Snowarriors</a></h5>
             <p class="grey-text text-lighten-4"></p>
           </div>
           <div class="col l4 offset-l2 s12">
