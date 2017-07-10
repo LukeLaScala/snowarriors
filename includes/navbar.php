@@ -8,7 +8,7 @@
           <li><a href="#!" data-activates="membershipdrop" class="dropdown-button larger">Membership<i class="material-icons right">arrow_drop_down</i></a>
           <li><a href="#!" data-activates="mediadrop" class="dropdown-button larger">Media<i class="material-icons right">arrow_drop_down</i></a>
           <li><a href="events.php" class="larger">Events</a></li>
-          <li><a href="wow.html" class="larger">Important Links</a></li>
+          <li><a href="links.php" class="larger">Important Links</a></li>
           <li><a href="contact.php" class="larger">Contact Us</a></li>
     		</ul>
         <ul class="side-nav" id="mobile-demo">
