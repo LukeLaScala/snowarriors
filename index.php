@@ -11,16 +11,12 @@
         <li>
           <img src="static/img/slider1.jpg">
           <div class="caption left-align">
-            <h3>Whatever you want to say</h3>
-            <h5 class="light grey-text text-lighten-3">Yadii Yadi Yada</h5>
+            <h3>Indian Lake Snowarriors</h3>
+            <h5 class="light grey-text text-lighten-3">The Tucker</h5>
           </div>
         </li>
         <li>
           <img src="static/img/slider2.jpg"> 
-          <div class="caption right-align">
-            <h3>More Stuff</h3>
-            <h5 class="light grey-text text-lighten-3">Yodii Yodi yodi</h5>
-          </div>
         </li>
       </ul>
     </div>
