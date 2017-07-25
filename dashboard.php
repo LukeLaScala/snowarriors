@@ -85,6 +85,25 @@
       			</form>
             </div>
 
+            <div id="news" class="item">
+                <h3>Add news</h3>
+                <p>This will add an news item to the home page</p>
+                <form action="controller.php?action=add_news" method="post">
+
+                <label>News: </label>
+                <input type="text" name="news" maxlength="500" required autocomplete="off">
+
+                <label>Author: </label>
+                <input type="text" name="author" maxlength="500" required autocomplete="off">
+
+                <label>Date: </label>
+                <input type="date" name="date" class="datepicker" required>
+
+
+                <button type="submit" class="waves-effect waves-light btn orange" name="submit">Add News</button>
+                </form> 
+            </div>
+
         </div>
 		</main>
 

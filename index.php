@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <html>
   
   <?php include('includes/head.php'); ?>
@@ -5,6 +6,7 @@
   <body>
     
     <?php include('includes/navbar.php'); ?>
+    <?php include('models/db_functions.php'); ?>
     
     <div class="slider">
       <ul class="slides">
@@ -28,56 +30,26 @@
       <div class="row">
         <h2>News & Announcements</h2>
         <div class=" col l12 news">
-          <div class="card white">
+        <?php foreach (get_news() as $news) { ?>
+            <div class="card white">
             <div class="card-content black-text">
               <p class="black-text">
-                We will be hosting a chicken BBQ on Saturday at the fire house. If you don't come you will be kicked out of the club. Be there or be square.
+                <?php echo($news['news']); ?>
               </p>
             </div>
             <div class="card-action">
-              <p> Ed LaScala <span class="right"> 10 minutes ago </span> </p>
+              <p> 
+                <?php echo($news['author']); ?>
+                 <span class="right"> 
+                    <?php echo(date('M j Y g:i A', strtotime($news['timestamp']))); ?>
+                    <?php if ($_SESSION['admin']){
+                        echo '<a href="controller.php?action=delete_news&nid=' . $news['nid'] . '"' . '>Delete</a>';
+                    } ?>
+                 </span>
+             </p>
             </div>
           </div>
-          <div class="card white">
-            <div class="card-content black-text">
-              <p class="black-text">
-                We will be hosting a chicken BBQ on Saturday at the fire house. If you don't come you will be kicked out of the club. Be there or be square.
-              </p>
-            </div>
-            <div class="card-action">
-              <p> Ed LaScala <span class="right"> 10 minutes ago </span> </p>
-            </div>
-          </div>
-          <div class="card white">
-            <div class="card-content black-text">
-              <p class="black-text">
-                We will be hosting a chicken BBQ on Saturday at the fire house. If you don't come you will be kicked out of the club. Be there or be square.
-              </p>
-            </div>
-            <div class="card-action">
-              <p> Ed LaScala <span class="right"> 10 minutes ago </span> </p>
-            </div>
-          </div>
-          <div class="card white">
-            <div class="card-content black-text">
-              <p class="black-text">
-                This is our mission statement and it is very mission statement-y. Lorem ipsum dolor sit amet. Snowmobiles are the future. This is our mission statement and it is very mission statement-y. Lorem ipsum dolor sit amet. Snowmobiles are the future. This is our mission statement and it is very mission statement-y. Lorem ipsum dolor sit amet. Snowmobiles are the future.
-              </p>
-            </div>
-            <div class="card-action">
-              <p> Ed LaScala <span class="right"> 10 minutes ago </span> </p>
-            </div>
-          </div>
-          <div class="card white">
-            <div class="card-content black-text">
-              <p class="black-text">
-                We will be hosting a chicken BBQ on Saturday at the fire house. If you don't come you will be kicked out of the club. Be there or be square.
-              </p>
-            </div>
-            <div class="card-action">
-              <p> Ed LaScala <span class="right"> 10 minutes ago </span> </p>
-            </div>
-          </div>
+        <?php } ?>
         </div>
       </div>
 

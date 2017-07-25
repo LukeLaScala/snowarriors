@@ -41,6 +41,33 @@ function add_journal($path, $title){
 
 }
 
+function add_news($news, $author, $date){
+	global $dbh;
+	$stmt = $dbh->prepare("insert into news (news, author, date) values (:news, :author, :date)");
+	$stmt->bindParam(':news', $news);
+	$stmt->bindParam(':author', $author);
+	$stmt->bindParam(':date', $date);
+
+	$stmt->execute();
+}
+
+function get_news(){
+	global $dbh;
+	$stmt = $dbh->prepare("select * from news order by timestamp desc");
+
+	$stmt->execute();
+    return $stmt->fetchAll();
+}
+
+function delete_news($nid){
+	global $dbh;
+	$stmt = $dbh->prepare("delete from news where nid = :nid");
+   	$stmt->bindParam(':nid', $nid);
+    $stmt->execute();
+
+    return;
+}
+
 function get_journal_entries(){
 	global $dbh;
 	$stmt = $dbh->prepare("select * from journals order by timestamp desc");

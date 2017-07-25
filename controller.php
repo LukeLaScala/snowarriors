@@ -114,6 +114,20 @@ switch ($action){
 		header("Location: photosandvideos.php");
 		break;
 
+	case "add_news":
+		require_admin();
+		$news = $_POST['news'];
+		$date = $_POST['date'];
+		$author = $_POST['author'];
+		add_news($news, $author, $date);
+		$_SESSION['alerts'] = "Successfully added";
+		header("Location: controller.php?action=dashboard");
+		break;
+	case "delete_news":
+		require_admin();
+		delete_news($_GET['nid']);
+		header("Location: index.php");
+		break;
 	case "add_media":
 		require_admin();
 
