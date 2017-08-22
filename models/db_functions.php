@@ -105,7 +105,7 @@ function add_event($name, $location, $time, $date){
 
 function get_events(){
 	global $dbh;
-	$stmt = $dbh->prepare("select * from events order by date asc, time asc");
+	$stmt = $dbh->prepare("SELECT *,str_to_date(date, '%e %M, %Y') as order1, STR_TO_DATE(time, '%H:%i') as order2 from events order by order1 asc, order2 asc");
     $stmt->execute();
 
     return $stmt->fetchAll();

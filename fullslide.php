@@ -9,7 +9,6 @@
   			<div class="slider fullscreen" style="z-index: 50">
     		<ul class="slides">
 
-    		<?php echo(print_r(get_pictures($_GET['id']))) ?>
     	<?php foreach (get_pictures($_GET['id']) as $img) { ?>
 		<li>
         	<img src="<?php echo('uploads/' . $img['path']); ?>"> <!-- random image -->        
