@@ -23,12 +23,12 @@
 			              <?php if($_SESSION['admin']){echo('<th>Delete</th>');} ?>
 			          </tr>
 			        </thead>
-			        <tbody>
+			        <tbody> 
 			        <?php foreach (get_events() as $event) { ?>
 			       		<tr>
 			          		<td><?php echo($event['name']); ?></td>
 				            <td><?php echo($event['location']); ?></td>
-				            <td><?php echo($event['time']); ?></td>
+				            <td><?php echo(date("g:i a", strtotime($event['time']))); ?></td>
 				            <td><?php echo($event['date']); ?></td>
 				            <?php if($_SESSION['admin']){echo ('<td><a href="controller.php?action=delete_event&id=' . $event['id'] . '"' .'>delete </a></td>');} ?>
 			          	</tr>
