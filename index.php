@@ -40,7 +40,7 @@
               </div>
               <div class="col l4">
                 <p class="black-text right">
-                   Posted on <?php echo(date('M j Y', strtotime($news['timestamp']))); ?>
+                   Posted on <?php echo(date('j/n/Y', strtotime($news['timestamp']))); ?>
                 </p>
               </div>
             </div>
