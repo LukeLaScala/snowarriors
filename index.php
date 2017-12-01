@@ -32,20 +32,26 @@
         <div class=" col l12 news">
         <?php foreach (get_news() as $news) { ?>
             <div class="card white">
-            <div class="card-content black-text">
-              <p class="black-text">
-                <?php echo($news['news']); ?>
-              </p>
+            <div class="card-content black-text row">
+              <div class="col l8">
+                <p class="black-text">
+                  <?php echo($news['news']); ?>
+                </p>
+              </div>
+              <div class="col l4">
+                <p class="black-text right">
+                    <?php echo(date('M j Y', strtotime($news['timestamp']))); ?>
+                </p>
+              </div>
             </div>
             <div class="card-action">
               <p> 
-                <?php echo($news['author']); ?>
                  <span class="right"> 
-                    <?php echo(date('M j Y g:i A', strtotime($news['timestamp']))); ?>
                     <?php if ($_SESSION['admin']){
                         echo '<a href="controller.php?action=delete_news&nid=' . $news['nid'] . '"' . '>Delete</a>';
                     } ?>
                  </span>
+                 <br>
              </p>
             </div>
           </div>

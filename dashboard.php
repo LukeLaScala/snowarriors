@@ -93,9 +93,6 @@
                 <label>News: </label>
                 <input type="text" name="news" maxlength="500" required autocomplete="off">
 
-                <label>Author: </label>
-                <input type="text" name="author" maxlength="500" required autocomplete="off">
-
                 <label>Date: </label>
                 <input type="date" name="date" class="datepicker" required>
 

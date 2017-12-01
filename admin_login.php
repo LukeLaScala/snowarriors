@@ -24,7 +24,7 @@
 			
 		<?php include('includes/footer.php') ?>	
 		<?php include 'includes/jsbottom.php';?>
-				<?php echo(get_alerts()); ?>
+		<?php echo(get_alerts()); ?>
 
 	</body>
 </html>
