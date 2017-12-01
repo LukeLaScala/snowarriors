@@ -118,8 +118,7 @@ switch ($action){
 		require_admin();
 		$news = $_POST['news'];
 		$date = $_POST['date'];
-		$author = $_POST['author'];
-		add_news($news, $author, $date);
+		add_news($news, $date);
 		$_SESSION['alerts'] = "Successfully added";
 		header("Location: controller.php?action=dashboard");
 		break;
