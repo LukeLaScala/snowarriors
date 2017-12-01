@@ -93,10 +93,6 @@
                 <label>News: </label>
                 <input type="text" name="news" maxlength="500" required autocomplete="off">
 
-                <label>Date: </label>
-                <input type="date" name="date" class="datepicker" required>
-
-
                 <button type="submit" class="waves-effect waves-light btn orange" name="submit">Add News</button>
                 </form> 
             </div>

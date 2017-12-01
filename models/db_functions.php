@@ -41,11 +41,10 @@ function add_journal($path, $title){
 
 }
 
-function add_news($news, $date){
+function add_news($news){
 	global $dbh;
-	$stmt = $dbh->prepare("insert into news (news, date) values (:news, :date)");
+	$stmt = $dbh->prepare("insert into news (news) values (:news)");
 	$stmt->bindParam(':news', $news);
-	$stmt->bindParam(':date', $date);
 
 	$stmt->execute();
 }

@@ -117,8 +117,7 @@ switch ($action){
 	case "add_news":
 		require_admin();
 		$news = $_POST['news'];
-		$date = $_POST['date'];
-		add_news($news, $date);
+		add_news($news);
 		$_SESSION['alerts'] = "Successfully added";
 		header("Location: controller.php?action=dashboard");
 		break;
