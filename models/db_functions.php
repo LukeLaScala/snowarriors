@@ -41,7 +41,7 @@ function add_journal($path, $title){
 
 }
 
-function add_news($news, $author, $date){
+function add_news($news, $date){
 	global $dbh;
 	$stmt = $dbh->prepare("insert into news (news, date) values (:news, :date)");
 	$stmt->bindParam(':news', $news);
