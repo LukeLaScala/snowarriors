@@ -44,16 +44,17 @@
                 </p>
               </div>
             </div>
+            <?php if ($_SESSION['admin']){ ?>
             <div class="card-action">
               <p> 
-                 <span class="right"> 
-                    <?php if ($_SESSION['admin']){
-                        echo '<a href="controller.php?action=delete_news&nid=' . $news['nid'] . '"' . '>Delete</a>';
-                    } ?>
+                 <span class="right">
+                        <?php  
+                        echo '<a href="controller.php?action=delete_news&nid=' . $news['nid'] . '"' . '>Delete</a>'; ?>
                  </span>
                  <br>
              </p>
             </div>
+            <?php } ?>
           </div>
         <?php } ?>
         </div>
