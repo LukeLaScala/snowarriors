@@ -18,7 +18,7 @@
 			          <tr>
 			              <th>Event</th>
 			              <th>Location</th>
-			              <th>Time (24h)</th>
+			              <th>Time</th>
 			              <th>Date</th>
 			              <?php if($_SESSION['admin']){echo('<th>Delete</th>');} ?>
 			          </tr>
