@@ -11,6 +11,7 @@
     <i onclick="$('.slider').slider('next');" class="material-icons large white-text" style="position: absolute; z-index: 999; cursor: pointer; right: 0; bottom: 50%">keyboard_arrow_right</i>
     
     <i onclick="$('.slider').slider('prev');" class="material-icons large white-text" style="position: absolute; z-index: 999; cursor: pointer; left: 0; bottom: 50%">keyboard_arrow_left</i>
+    
     <div class="slider fullscreen" style="position: relative;">
       <ul class="slides">
         <li>
@@ -75,4 +76,7 @@
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/jsbottom.php';?>
   </body>
+  <script type="text/javascript">
+    $('#nav').css('position', 'fixed')
+  </script>
 </html>

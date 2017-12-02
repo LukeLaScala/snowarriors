@@ -1,7 +1,7 @@
-  <nav style="z-index: 999; opacity: .9">
+  <nav id="nav" style="z-index: 999; opacity: .9; position: relative;">
       <div class="nav-wrapper white">
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <a href="index.php" class="largest" style="padding-left: 1rem;">Indian Lake Snowarriors</a>
+        <a href="index.php" style="padding-left: 2rem;"><img style="padding-top: 5px; width: 60px; height: 65px;" src="static/img/snowarriors.png"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#!" data-activates="aboutusdrop" class="dropdown-button green-text larger">About Us <i class="material-icons right">arrow_drop_down</i></a>
           </li>
