@@ -8,17 +8,31 @@
     <?php include('includes/navbar.php'); ?>
     <?php include('models/db_functions.php'); ?>
     
-    <div class="slider">
+    <div class="slider fullscreen" style="height: 90%; position: relative;">
       <ul class="slides">
         <li>
-          <img src="static/img/slider1.jpg">
-          <div class="caption left-align">
-            <h3>Indian Lake Snowarriors</h3>
-            <h5 class="light grey-text text-lighten-3">The Tucker</h5>
-          </div>
+          <img src="static/img/home1.jpg">
         </li>
         <li>
-          <img src="static/img/slider2.jpg"> 
+          <img src="static/img/home2.jpg"> 
+        </li>
+        <li>
+          <img src="static/img/home3.jpg">
+        </li>
+        <li>
+          <img src="static/img/home4.jpg"> 
+        </li>
+        <li>
+          <img src="static/img/home5.jpg">
+        </li>
+        <li>
+          <img src="static/img/home6.jpg"> 
+        </li>
+        <li>
+          <img src="static/img/home7.jpg">
+        </li>
+        <li>
+          <img src="static/img/home8.jpg"> 
         </li>
       </ul>
     </div>
@@ -29,7 +43,7 @@
   
       <div class="row">
         <h2>News & Announcements</h2>
-        <div class=" col l12 news">
+        <div class="col l12 news">
         <?php foreach (get_news() as $news) { ?>
             <div class="card white">
             <div class="card-content black-text row">
