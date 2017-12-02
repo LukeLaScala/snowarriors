@@ -11,10 +11,10 @@
     <div class="slider fullscreen" style="height: 100%; position: relative;">
       <ul class="slides">
         <li>
-          <img src="static/img/home2.JPG"> 
+          <img src="static/img/home3.JPG">
         </li>
         <li>
-          <img src="static/img/home3.JPG">
+          <img src="static/img/home2.JPG"> 
         </li>
         <li>
           <img src="static/img/home5.JPG">
