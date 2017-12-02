@@ -11,28 +11,28 @@
     <div class="slider fullscreen" style="height: 100%; position: relative;">
       <ul class="slides">
         <li>
-          <img src="static/img/home1.jpg">
+          <img src="static/img/home1.JPG">
         </li>
         <li>
-          <img src="static/img/home2.jpg"> 
+          <img src="static/img/home2.JPG"> 
         </li>
         <li>
-          <img src="static/img/home3.jpg">
+          <img src="static/img/home3.JPG">
         </li>
         <li>
-          <img src="static/img/home4.jpg"> 
+          <img src="static/img/home4.JPG"> 
         </li>
         <li>
-          <img src="static/img/home5.jpg">
+          <img src="static/img/home5.JPG">
         </li>
         <li>
-          <img src="static/img/home6.jpg"> 
+          <img src="static/img/home6.JPG"> 
         </li>
         <li>
-          <img src="static/img/home7.jpg">
+          <img src="static/img/home7.JPG">
         </li>
         <li>
-          <img src="static/img/home8.jpg"> 
+          <img src="static/img/home8.JPG"> 
         </li>
       </ul>
     </div>
