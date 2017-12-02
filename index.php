@@ -8,7 +8,7 @@
     <?php include('includes/navbar.php'); ?>
     <?php include('models/db_functions.php'); ?>
     
-    <div class="slider fullscreen" style="height: 90%; position: relative;">
+    <div class="slider fullscreen" style="height: 100%; position: relative;">
       <ul class="slides">
         <li>
           <img src="static/img/home1.jpg">

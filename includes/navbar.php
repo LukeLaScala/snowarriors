@@ -1,4 +1,4 @@
-  <nav>
+  <nav style="position: fixed; z-index: 999; opacity: .9">
       <div class="nav-wrapper white">
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <a href="index.php" class="largest" style="padding-left: 1rem;">Indian Lake Snowarriors</a>
