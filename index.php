@@ -17,9 +17,6 @@
           <img src="static/img/home3.JPG">
         </li>
         <li>
-          <img src="static/img/home4.JPG"> 
-        </li>
-        <li>
           <img src="static/img/home5.JPG">
         </li>
         <li>
