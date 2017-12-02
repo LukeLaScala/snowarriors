@@ -11,9 +11,6 @@
     <div class="slider fullscreen" style="height: 100%; position: relative;">
       <ul class="slides">
         <li>
-          <img src="static/img/home1.JPG">
-        </li>
-        <li>
           <img src="static/img/home2.JPG"> 
         </li>
         <li>
