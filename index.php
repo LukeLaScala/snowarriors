@@ -8,7 +8,10 @@
     <?php include('includes/navbar.php'); ?>
     <?php include('models/db_functions.php'); ?>
     
-    <div class="slider fullscreen" style="height: 100%; position: relative;">
+    <i onclick="$('.slider').slider('next');" class="material-icons large white-text" style="position: absolute; z-index: 999; cursor: pointer; right: 0; bottom: 50%">keyboard_arrow_right</i>
+    
+    <i onclick="$('.slider').slider('prev');" class="material-icons large white-text" style="position: absolute; z-index: 999; cursor: pointer; left: 0; bottom: 50%">keyboard_arrow_left</i>
+    <div class="slider fullscreen" style="position: relative;">
       <ul class="slides">
         <li>
           <img src="static/img/home3.JPG">
