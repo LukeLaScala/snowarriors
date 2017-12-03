@@ -25,18 +25,18 @@
 
 <!-- About Us Drop -->
 <ul id="aboutusdrop" class="dropdown-content white">
-  <li><a class="black-text" href="officersanddirectors.php">OFFICERS & DIRECTORS</a></li>
-  <li><a class="black-text" href="dougwells.php">DOUG WELLS REMEMBERS</a></li>
+  <li><a class="black-text" href="officersanddirectors.php"><b>OFFICERS & DIRECTORS</b></a></li>
+  <li><a class="black-text" href="dougwells.php"><b>DOUG WELLS REMEMBERS</b></a></li>
 </ul>
 <!-- Membership Drop -->
 <ul id="membershipdrop" class="dropdown-content white">
-  <li><a class="black-text" href="membershipform.php">MEMBERSHIP FORM</a></li>
-  <li><a class="black-text" target="_" href="https://membership.nysnowmobiler.com/clubs/510">ONLINE REGISTRATION</a></li>
+  <li><a class="black-text" href="membershipform.php"><b>MEMBERSHIP FORM</b></a></li>
+  <li><a class="black-text" target="_" href="https://membership.nysnowmobiler.com/clubs/510"><b>ONLINE REGISTRATION</a></li>
 </ul>
 
 <!-- Media Drop -->
 <ul id="mediadrop" class="dropdown-content white">
-  <li><a class="black-text" href="photosandvideos.php">PHOTOS & VIDEOS</a></li>
-    <li><a class="black-text" href="journal.php">SNOWARRIOR JOURNAL</a></li>
+  <li><a class="black-text" href="photosandvideos.php"><b>PHOTOS & VIDEOS</b></a></li>
+    <li><a class="black-text" href="journal.php"><b>SNOWARRIOR JOURNAL</b></a></li>
 
 </ul>
