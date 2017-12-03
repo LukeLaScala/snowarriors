@@ -4,14 +4,14 @@
           <a href="/"><img onclick="window.location='http://snowarriors.com'" style="padding-left: 40px; padding-top: 5px; width: 125px; height: 90px;" src="static/img/snowarriors.png"></a>
                   <img style="cursor: pointer;" onclick="window.location='http://snowarriors.com'" src="static/img/IndianLakeSnowarriors.png">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#!" data-activates="aboutusdrop" class="dropdown-button black-text larger">ABOUT US <i class="material-icons right">arrow_drop_down</i></a>
+          <li><a href="#!" data-activates="aboutusdrop" class="dropdown-button black-text larger"><b>ABOUT US</b> <i class="material-icons right">arrow_drop_down</i></a>
           </li>
-          <li><a href="#!" data-activates="membershipdrop" class="dropdown-button black-text larger">MEMBERSHIP<i class="material-icons right">arrow_drop_down</i></a>
-          <li><a href="#!" data-activates="mediadrop" class="black-text dropdown-button larger">MEDIA<i class="material-icons right">arrow_drop_down</i></a>
-          <li><a href="events.php" class="larger black-text">EVENTS</a></li>
+          <li><a href="#!" data-activates="membershipdrop" class="dropdown-button black-text larger"><b>MEMBERSHIP</b><i class="material-icons right">arrow_drop_down</i></a>
+          <li><a href="#!" data-activates="mediadrop" class="black-text dropdown-button larger"><b>MEDIA</b><i class="material-icons right">arrow_drop_down</i></a>
+          <li><a href="events.php" class="larger black-text"><b>EVENTS</b></a></li>
           <!-- <li><a href="shop.php" class="larger">Shop</a></li> -->
-          <li><a href="links.php" class="larger black-text">IMPORTANT LINKS</a></li>
-          <li><a href="contact.php" class="larger black-text">CONTACT US</a></li>
+          <li><a href="links.php" class="larger black-text"><b>IMPORTANT LINKS</b></a></li>
+          <li><a href="contact.php" class="larger black-text"><b>CONTACT US</b></a></li>
     		</ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="about.php">About Us</a></li>
