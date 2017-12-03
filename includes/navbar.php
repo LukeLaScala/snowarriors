@@ -2,7 +2,7 @@
       <div class="nav-wrapper white">
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <a href="/"><img onclick="window.location='http://snowarriors.com'" style="padding-left: 40px; padding-top: 5px; width: 125px; height: 90px;" src="static/img/snowarriors.png"></a>
-        <a style="padding-left: 20px; font-family: 'Lato', sans-serif; font-size: 30px; color: #800020" class="brand-logo" href="https://snowarriors.com">INDIAN LAKE SNOWARRIORS</a>
+        <a style="padding-left: 20px; font-family: 'Lato', sans-serif; font-size: 25px; color: #800020" class="brand-logo" href="https://snowarriors.com">INDIAN LAKE SNOWARRIORS</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#!" data-activates="aboutusdrop" class="dropdown-button black-text larger">ABOUT US <i class="material-icons right">arrow_drop_down</i></a>
           </li>
