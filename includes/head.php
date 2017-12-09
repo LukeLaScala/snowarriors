@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>    
     <link href="https://fonts.googleapis.com/css?family=Lato:700i" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <div id="fb-root"></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
