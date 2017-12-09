@@ -3,8 +3,8 @@
 	<?php include('includes/head.php'); ?>
 	
 	<body>
-		<?php include('includes/navbar.php') ?>	
 		<main>
+		<?php include('includes/navbar.php') ?>	
 		<div class="section"></div>
 			<div class="row">
 				<div class="col l4">
