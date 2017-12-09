@@ -37,11 +37,11 @@
     <div class="section"></div>
     <div class="section"></div>
 
-    <div class="container">
+    <div class="container" style="width: 90%">
   
       <div class="row">
         <h2>News & Announcements</h2>
-        <div class="col l12 news">
+        <div class="col l8 news">
         <?php foreach (get_news() as $news) { ?>
             <div class="card white">
             <div class="card-content black-text row">
@@ -70,6 +70,9 @@
           </div>
         <?php } ?>
         </div>
+        <div class="col l4">
+          <div class="fb-page right" data-href="https://www.facebook.com/ILsnowarriors/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ILsnowarriors/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ILsnowarriors/">Indian Lake Snowarriors</a></blockquote></div>
+        </div>
       </div>
 
     </div>
@@ -77,6 +80,6 @@
     <?php include 'includes/jsbottom.php';?>
   </body>
   <script type="text/javascript">
-    $('#nav').css('position', 'fixed')
+    $('#nav').css('position', 'absolute')
   </script>
 </html>
