@@ -163,10 +163,10 @@
 					<input type="hidden" name="hosted_button_id" value="LKVPR2ELR5MAL">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
 						<option value="" class="disabled">Select a size</option>
-						<option value="small">Small $12.00 USD</option>
-						<option value="medium">Medium $12.00 USD</option>
-						<option value="large">Large $12.00 USD</option>
-						<option value="xl">XL $12.00 USD</option>
+						<option value="small">Youth Small $12.00 USD</option>
+						<option value="medium">Youth Medium $12.00 USD</option>
+						<option value="large">Youth Large $12.00 USD</option>
+						<option value="xl">Youth XL $12.00 USD</option>
 					</select>
 					<input type="hidden" name="currency_code" value="USD">
 					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
@@ -181,10 +181,10 @@
 					<input type="hidden" name="hosted_button_id" value="FJA8RU8XE2NWG">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
 						<option value="" class="disabled">Select a size</option>
-						<option value="small">Small $18.00 USD</option>
-						<option value="medium">Medium $18.00 USD</option>
-						<option value="large">Large $18.00 USD</option>
-						<option value="xl">XL $18.00 USD</option>
+						<option value="small">Youth Small $18.00 USD</option>
+						<option value="medium">Youth Medium $18.00 USD</option>
+						<option value="large">Youth Large $18.00 USD</option>
+						<option value="xl">Youth XL $18.00 USD</option>
 					</select>
 					<input type="hidden" name="currency_code" value="USD">
 					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
@@ -199,10 +199,10 @@
 					<input type="hidden" name="hosted_button_id" value="4NPYDLN62NQPQ">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
 						<option value="" class="disabled">Select a size</option>
-						<option value="small">Small $25.00 USD</option>
-						<option value="medium">Medium $25.00 USD</option>
-						<option value="large">Large $25.00 USD</option>
-						<option value="xl">XL $25.00 USD</option>
+						<option value="small">Youth Small $25.00 USD</option>
+						<option value="medium">Youth Medium $25.00 USD</option>
+						<option value="large">Youth Large $25.00 USD</option>
+						<option value="xl">Youth XL $25.00 USD</option>
 					</select>
 					<input type="hidden" name="currency_code" value="USD">
 					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
