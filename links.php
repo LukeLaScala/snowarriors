@@ -14,7 +14,7 @@
 		<div class="row">
 			<div class="col l11 push-l1">
 				<a href="http://nysnowmobiler.com">NYSSA</a><br>
-				<a href="http://ilsnow.org">ILSnow</a><br>
+				<a href="http://ilsnow.com">ILSnow</a><br>
 				<a href="http://townofindianlake.org/">Town of Indian Lake</a><br>
 				<a href="https://www.facebook.com/ILsnowarriors/">Facebook</a><br>
 			</div>
