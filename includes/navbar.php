@@ -9,7 +9,7 @@
           <li><a href="#!" data-activates="membershipdrop" class="dropdown-button black-text larger"><b>MEMBERSHIP</b><i class="material-icons right">arrow_drop_down</i></a>
           <li><a href="#!" data-activates="mediadrop" class="black-text dropdown-button larger"><b>MEDIA</b><i class="material-icons right">arrow_drop_down</i></a>
           <li><a href="events.php" class="larger black-text"><b>EVENTS</b></a></li>
-          <!-- <li><a href="shop.php" class="larger">Shop</a></li> -->
+          <li><a href="shop.php" class="larger black-text"><b>SHOP</b></a></li>
           <li><a href="links.php" class="larger black-text"><b>IMPORTANT LINKS</b></a></li>
           <li><a href="contact.php" class="larger black-text"><b>CONTACT US</b></a></li>
     		</ul>
