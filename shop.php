@@ -24,7 +24,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="KAZ64VY5TLXB2">
-						<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+						<input type="hidden" name="on0" value="sizes"><select name="os0">
+							<option value="" class="disabled">Select a size</option>
 							<option value="small">Small $15.00 USD</option>
 							<option value="medium">Medium $15.00 USD</option>
 							<option value="large">Large $15.00 USD</option>
@@ -43,7 +44,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="5MMY9Z4BT2K26">
-					<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+					<input type="hidden" name="on0" value="sizes"><select name="os0">
+						<option value="" class="disabled">Select a size</option>
 						<option value="small">Small $20.00 USD</option>
 						<option value="medium">Medium $20.00 USD</option>
 						<option value="large">Large $20.00 USD</option>
@@ -63,7 +65,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="9Q6WCRV62RSK8">
-						<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+						<input type="hidden" name="on0" value="sizes"><select name="os0">
+							<option value="" class="disabled">Select a size</option>
 							<option value="Small">Small $22.00 USD</option>
 							<option value="Medium">Medium $22.00 USD</option>
 							<option value="Large">Large $22.00 USD</option>
@@ -90,7 +93,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="8MFXR8NHEPJ64">
-					<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+					<input type="hidden" name="on0" value="sizes"><select name="os0">
+						<option value="" class="disabled">Select a size</option>
 						<option value="small">Small $28.00 USD</option>
 						<option value="medium">Medium $28.00 USD</option>
 						<option value="large">Large $28.00 USD</option>
@@ -109,8 +113,9 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="B3TGDM2N5KLCU">
-							<input type="hidden" name="on0" value="sizes">Sizes
+							<input type="hidden" name="on0" value="sizes">
 							<select name="os0">
+							<option value="" class="disabled">Select a size</option>
 							<option value="small">Small $17.00 USD</option>
 							<option value="medium">Medium $17.00 USD</option>
 							<option value="large">Large $17.00 USD</option>
@@ -128,7 +133,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="8QXR5ZFSLAY5G">
-						<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+						<input type="hidden" name="on0" value="sizes"><select name="os0">
+							<option value="" class="disabled">Select a size</option>
 							<option value="small">Small $23.00 USD</option>
 							<option value="medium">Medium $23.00 USD</option>
 							<option value="large">Large $23.00 USD</option>
@@ -155,7 +161,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="LKVPR2ELR5MAL">
-					<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+					<input type="hidden" name="on0" value="sizes"><select name="os0">
+						<option value="" class="disabled">Select a size</option>
 						<option value="small">Small $12.00 USD</option>
 						<option value="medium">Medium $12.00 USD</option>
 						<option value="large">Large $12.00 USD</option>
@@ -172,7 +179,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="FJA8RU8XE2NWG">
-					<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+					<input type="hidden" name="on0" value="sizes"><select name="os0">
+						<option value="" class="disabled">Select a size</option>
 						<option value="small">Small $18.00 USD</option>
 						<option value="medium">Medium $18.00 USD</option>
 						<option value="large">Large $18.00 USD</option>
@@ -189,7 +197,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="4NPYDLN62NQPQ">
-					<input type="hidden" name="on0" value="sizes">Sizes<select name="os0">
+					<input type="hidden" name="on0" value="sizes"><select name="os0">
+						<option value="" class="disabled">Select a size</option>
 						<option value="small">Small $25.00 USD</option>
 						<option value="medium">Medium $25.00 USD</option>
 						<option value="large">Large $25.00 USD</option>
@@ -214,7 +223,8 @@
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="AWR3LDWYEHYQ4">
-						<input type="hidden" name="on0" value="sizes">Sizes</td></tr><tr><td><select name="os0">
+						<input type="hidden" name="on0" value="sizes"><select name="os0">
+							<option value="" class="disabled">Select a size</option>
 							<option value="12 month">12 Month $15.00 USD</option>
 							<option value="24 month">24 Month $15.00 USD</option>
 						</select>
