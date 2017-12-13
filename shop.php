@@ -20,8 +20,8 @@
 				</div>
 				<div class="col l4">
 					<br>
-					<p>All items are dark gray with white and burgundy print. Orders will be delivered free of charge to addresses in Indian Lake, NY. </p>
-					<p>A $7 shipping fee will be added to orders with addresses outside of Indian Lake, NY. Have questions? Email melaniprinting@gmail.com</p>
+					<p>All items are dark gray with white and burgundy print. Orders will be delivered free of charge to addresses in Indian Lake, NY.</p>
+					<p>A $7 shipping fee will be added to orders with addresses outside of Indian Lake, NY. Indian Lakers, upon receipt of your order, your $7 will be refunded. Have questions? Email melaniprinting@gmail.com</p>
 					<p>Don't want to order online? Download the order form <a href="static/pdfs/orderform.pdf" download>here</a>.</p>
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 <input type="hidden" name="cmd" value="_s-xclick">
