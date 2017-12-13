@@ -22,11 +22,11 @@
 "></form>
 				</div>
 				<div class="col l4">
-					<p>Front of shirt</p>
+					<p><b>Front of shirt </b>(click to expand, do it!)</p>
 					<img class="materialboxed" src="static/img/shirtfront.png" style="width: 300px">
 				</div>
 				<div class="col l4">
-					<p>Back of shirt</p>
+					<p><b>Back of shirt</b> (click to expand, do it!)</p>
 					<img class="materialboxed" src="static/img/shirtback.png" style="width: 345px">
 				</div>
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
