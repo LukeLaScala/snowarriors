@@ -42,11 +42,11 @@
 				<div class="col l4">
 					<p>Adult Unisex Gildan Short Sleeve Tee</p>
 					<img src="static/img/mensshort.png" style="width: 200px; height: auto">
-					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="KAZ64VY5TLXB2">
 						<input type="hidden" name="on0" value="sizes"><select name="os0">
-							<option value="" class="disabled">Select a size</option>
+							<option value="small" class="disabled">Select a size</option>
 							<option value="small">Small $15.00 USD</option>
 							<option value="medium">Medium $15.00 USD</option>
 							<option value="large">Large $15.00 USD</option>
@@ -66,7 +66,7 @@
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="5MMY9Z4BT2K26">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
-						<option value="" class="disabled">Select a size</option>
+						<option value="small" class="disabled">Select a size</option>
 						<option value="small">Small $20.00 USD</option>
 						<option value="medium">Medium $20.00 USD</option>
 						<option value="large">Large $20.00 USD</option>
@@ -87,7 +87,7 @@
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="9Q6WCRV62RSK8">
 						<input type="hidden" name="on0" value="sizes"><select name="os0">
-							<option value="" class="disabled">Select a size</option>
+							<option value="small" class="disabled">Select a size</option>
 							<option value="Small">Small $22.00 USD</option>
 							<option value="Medium">Medium $22.00 USD</option>
 							<option value="Large">Large $22.00 USD</option>
@@ -115,7 +115,7 @@
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="8MFXR8NHEPJ64">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
-						<option value="" class="disabled">Select a size</option>
+						<option value="small" class="disabled">Select a size</option>
 						<option value="small">Small $28.00 USD</option>
 						<option value="medium">Medium $28.00 USD</option>
 						<option value="large">Large $28.00 USD</option>
@@ -136,7 +136,7 @@
 						<input type="hidden" name="hosted_button_id" value="B3TGDM2N5KLCU">
 							<input type="hidden" name="on0" value="sizes">
 							<select name="os0">
-							<option value="" class="disabled">Select a size</option>
+							<option value="small" class="disabled">Select a size</option>
 							<option value="small">Small $17.00 USD</option>
 							<option value="medium">Medium $17.00 USD</option>
 							<option value="large">Large $17.00 USD</option>
@@ -155,7 +155,7 @@
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="8QXR5ZFSLAY5G">
 						<input type="hidden" name="on0" value="sizes"><select name="os0">
-							<option value="" class="disabled">Select a size</option>
+							<option value="small" class="disabled">Select a size</option>
 							<option value="small">Small $23.00 USD</option>
 							<option value="medium">Medium $23.00 USD</option>
 							<option value="large">Large $23.00 USD</option>
@@ -183,7 +183,7 @@
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="LKVPR2ELR5MAL">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
-						<option value="" class="disabled">Select a size</option>
+						<option value="small" class="disabled">Select a size</option>
 						<option value="small">Youth Small $12.00 USD</option>
 						<option value="medium">Youth Medium $12.00 USD</option>
 						<option value="large">Youth Large $12.00 USD</option>
@@ -201,7 +201,7 @@
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="FJA8RU8XE2NWG">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
-						<option value="" class="disabled">Select a size</option>
+						<option value="small" class="disabled">Select a size</option>
 						<option value="small">Youth Small $18.00 USD</option>
 						<option value="medium">Youth Medium $18.00 USD</option>
 						<option value="large">Youth Large $18.00 USD</option>
@@ -219,7 +219,7 @@
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="4NPYDLN62NQPQ">
 					<input type="hidden" name="on0" value="sizes"><select name="os0">
-						<option value="" class="disabled">Select a size</option>
+						<option value="small" class="disabled">Select a size</option>
 						<option value="small">Youth Small $25.00 USD</option>
 						<option value="medium">Youth Medium $25.00 USD</option>
 						<option value="large">Youth Large $25.00 USD</option>
@@ -245,7 +245,7 @@
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="AWR3LDWYEHYQ4">
 						<input type="hidden" name="on0" value="sizes"><select name="os0">
-							<option value="" class="disabled">Select a size</option>
+							<option value="12 month" class="disabled">Select a size</option>
 							<option value="12 month">12 Month $15.00 USD</option>
 							<option value="24 month">24 Month $15.00 USD</option>
 						</select>
