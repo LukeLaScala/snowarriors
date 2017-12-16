@@ -16,6 +16,10 @@
       <ul class="slides">
         <li>
           <img src="static/img/home3.JPG">
+          <div class="white-text" style="position: absolute; bottom: 30%; left: 10%;">
+          <h3 style="color: #a20628; text-shadow: 3px 3px #000000"><b>NEW MERCHANDISE AVAILABLE</b></h3>
+          <h5 style="text-shadow: 2px 2px #000000" class="light grey-text text-lighten-3"><b>Click <a style="color: #a20628;" href="shop.php">here</a> to shop now!</b></h5>
+          </div>
         </li>
         <li>
           <img src="static/img/home2.JPG"> 
