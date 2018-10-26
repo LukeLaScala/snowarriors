@@ -13,50 +13,35 @@
 			<p>We would like to thank our supporters!</p>
 			<p><a href="https://gofundme.com/snowarriors">Support The Indian Lake Snowarriors</a></p>
 		</div>
+        <?php $supporters = get_supporters(); $first = intdiv(sizeof($supporters), 2); $second = sizeof($supporters) - $first; $first_array = array_slice($supporters, 0, $first); $second_array = array_slice($supporters, -$second); ?>
 		<div class="row">
 			<div class="col l4 push-l1">
 			<ul class="collection">
-    <li class="collection-item">Luke LaScala</li>
-    <li class="collection-item">Nicholas LaScala</li>
-    <li class="collection-item">Ralph Low</li>
-    <li class="collection-item">Darrin Harr</li>
-    <li class="collection-item">Doug DeCesare</li>
-    <li class="collection-item">Fred Schrodt</li>
-    <li class="collection-item">Jeff wright</li>
-    <li class="collection-item">RICH KELLER</li>
-    <li class="collection-item">Alan Pierce</li>
-    <li class="collection-item">Jay Stearns</li>
-    <li class="collection-item">charles klesse</li>
-    <li class="collection-item">Andrew Kelson</li>
-    <li class="collection-item">John Azzato</li>
-    <li class="collection-item">Joseoh Cunniff</li>
-    <li class="collection-item">Frank Chapman</li>
-    <li class="collection-item">David Cresswell</li>
-    <li class="collection-item">Sal Capitano</li>
-    <li class="collection-item">Nicholas Dunn</li>
-</ul>
+                <?php
+                foreach($first_array as $supporter) {
+                    $str = '<li class="collection-item">';
+                    $str .= $supporter['name'];
+                    if ($_SESSION['admin']){
+                        $str .='<span class="right"><a href="controller.php?action=delete_supporter&id=' . $supporter['id'] . '">Delete</a></span>';
+                    }
+                    $str .= '</li>';
+                    echo($str);
+            } ?>
+            </ul>
 			</div>
 			<div class="col l4 push-l2">
-			<ul class="collection">
-    <li class="collection-item">Robert Kuiken</li>
-    <li class="collection-item">Kathie Grotto</li>
-    <li class="collection-item">Paul Denicola</li>
-    <li class="collection-item">John Lamphere</li>
-    <li class="collection-item">OldMan Winter</li>
-    <li class="collection-item">KURT CASSIDY</li>
-    <li class="collection-item">Stephen Burke</li>
-    <li class="collection-item">Karen & Dave LaRose</li>
-    <li class="collection-item">JOHN [JP] PEEK</li>
-    <li class="collection-item">Chris Didden</li>
-    <li class="collection-item">Nadine Lindner</li>
-    <li class="collection-item">Andy B</li>
-    <li class="collection-item">charles klesse</li>
-    <li class="collection-item">Bryan Forshaw</li>
-    <li class="collection-item">John Rupp</li>
-    <li class="collection-item">Ed Johnson</li>
-    <li class="collection-item">Ralph Low</li>
-    <li class="collection-item">Tim Burris</li>
-</ul>
+			 <ul class="collection">
+                <?php
+                foreach($second_array as $supporter) {
+                    $str = '<li class="collection-item">';
+                    $str .= $supporter['name'];
+                    if ($_SESSION['admin']){
+                        $str .='<span class="right"><a href="controller.php?action=delete_supporter&id=' . $supporter['id'] . '">Delete</a></span>';
+                    }
+                    $str .= '</li>';
+                    echo($str);
+            } ?>
+            </ul>
 			</div>
 		</div>
 	  	<div class="section"></div>

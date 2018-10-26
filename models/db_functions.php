@@ -175,9 +175,26 @@ function get_pictures($mid){
 
 function add_supporter($supporter){
 	global $dbh;
-	return 'ok';
 	$stmt = $dbh->prepare("insert into supporters (name) values (:name)");
 	$stmt->bindParam(':name', $supporter);
 	$stmt->execute();
 }
+
+function get_supporters(){
+	global $dbh;
+	$stmt = $dbh->prepare("SELECT name, id from supporters");
+    $stmt->execute();
+
+    return $stmt->fetchAll();
+}
+
+function delete_supporter($id){
+	global $dbh;
+	$stmt = $dbh->prepare("delete from supporters where id = :id");
+   	$stmt->bindParam(':id', $id);
+    $stmt->execute();
+
+    return;
+}
+
 ?>
