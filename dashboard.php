@@ -18,7 +18,7 @@
             <button class="waves-effect waves-light btn orange" onclick='$(".item").hide(); $("#media").show();'>Add Media</button>
             <button class="waves-effect waves-light btn orange" onclick='$(".item").hide(); $("#journal").show();'>Add Entry</button>
             <button class="waves-effect waves-light btn orange" onclick='$(".item").hide(); $("#news").show();'>Add News</button>
-
+	    <button style="margin-top: 15px" class="waves-effect waves-light btn orange" onclick='$(".item").hide(); $("#supporters").show();'>Add Supporters</button>
             <div id="password" class="item">
                 <h3>Add password</h3>
                 <p>This will allow multiple passwords to gain access to the admin dashboard.</p>
@@ -95,7 +95,18 @@
                 <button type="submit" class="waves-effect waves-light btn orange" name="submit">Add News</button>
                 </form> 
             </div>
+	
+		<div id="supporters" class="item">
+                <h3>Add Supporters</h3>
+                <p>This will add supporters to the supporters page<br>Input names seperated by commas</p>
+                <form action="controller.php?action=add_supporters" method="post">
 
+                <label>Supporters: </label>
+                <input type="text" name="supporters" maxlength="500" required autocomplete="off">
+
+                <button type="submit" class="waves-effect waves-light btn orange" name="submit">Add Supporters</button>
+                </form>
+            </div>
         </div>
 		</main>
 

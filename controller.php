@@ -2,7 +2,7 @@
 session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-error_reporting(1);
+error_reporting(E_ALL|E_STRICT);
 include 'models/db_functions.php';
 include 'functions.php';
 
@@ -125,6 +125,14 @@ switch ($action){
 		require_admin();
 		delete_news($_GET['nid']);
 		header("Location: index.php");
+		break;
+	case "add_supporters":
+		require_admin();
+		$supporters = explode(",", $_POST['supporters']);
+		foreach ($supporters as $supporter){
+	                header("Location: test.php");
+			add_supporter($supporter);
+		}
 		break;
 	case "add_media":
 		require_admin();

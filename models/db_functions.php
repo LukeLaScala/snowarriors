@@ -172,4 +172,12 @@ function get_pictures($mid){
 
     return $stmt->fetchAll();
 }
+
+function add_supporter($supporter){
+	global $dbh;
+	return 'ok';
+	$stmt = $dbh->prepare("insert into supporters (name) values (:name)");
+	$stmt->bindParam(':name', $supporter);
+	$stmt->execute();
+}
 ?>

@@ -27,6 +27,7 @@
 <ul id="aboutusdrop" class="dropdown-content white">
   <li><a class="black-text" href="officersanddirectors.php"><b>OFFICERS & DIRECTORS</b></a></li>
   <li><a class="black-text" href="dougwells.php"><b>DOUG WELLS REMEMBERS</b></a></li>
+  <li><a class="black-text" href="supporters.php"><b>SUPPORTERS</b></a></li>
 </ul>
 <!-- Membership Drop -->
 <ul id="membershipdrop" class="dropdown-content white">
