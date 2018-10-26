@@ -1,7 +1,7 @@
 <nav id="nav" style="z-index: 999; opacity: .7; position: relative;">
     <div class="nav-wrapper white">
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <a href="/"><img onclick="window.location='http://snowarriors.com'" style="padding-left: 40px; padding-top: 0px; width: 130px; height: 90px; color: rgba(0,0,0,1)" src="static/img/snowarriors.png"></a>
+          <a href="/"><img onclick="window.location='http://snowarriors.com'" style="padding-left: 40px; padding-top: 0px; width: 130px; height: 95px; color: rgba(0,0,0,1)" src="static/img/snowarriors.png"></a>
                   <img style="cursor: pointer;" onclick="window.location='http://snowarriors.com'" src="static/img/IndianLakeSnowarriors.png">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#!" data-activates="aboutusdrop" class="dropdown-button black-text larger"><b>ABOUT US</b> <i class="material-icons right">arrow_drop_down</i></a>
