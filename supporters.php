@@ -13,7 +13,7 @@
 			<p>We would like to thank our supporters!</p>
 			<p><a href="https://gofundme.com/snowarriors">Support The Indian Lake Snowarriors</a></p>
 		</div>
-        <?php $supporters = get_supporters(); $first = intdiv(sizeof($supporters), 2); $second = sizeof($supporters) - $first; $first_array = array_slice($supporters, 0, $first); $second_array = array_slice($supporters, -$second); ?>
+        <?php $supporters = get_supporters(); $first = floor(sizeof($supporters) / 2); $second = sizeof($supporters) - $first; $first_array = array_slice($supporters, 0, $first); $second_array = array_slice($supporters, -$second); ?>
 		<div class="row">
 			<div class="col l4 push-l1">
 			<ul class="collection">
