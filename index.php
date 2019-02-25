@@ -15,6 +15,9 @@
     <div class="slider fullscreen" style="position: relative;">
       <ul class="slides">
         <li>
+          <img src="static/img/IceFishingDerby.jpg">
+        </li>
+        <li>
           <img src="static/img/newgroomer.jpg">
           <div class="white-text" style="position: absolute; bottom: 30%; left: 10%;">
           <h3 style="color: white text-shadow: 3px 3px #000000"><b>Snowarrior's New Groomer</b></h3>
