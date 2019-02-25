@@ -15,17 +15,14 @@
     <div class="slider fullscreen" style="position: relative;">
       <ul class="slides">
         <li>
-          <img src="static/img/home3.JPG">
+          <img src="static/img/newgroomer.jpg">
           <div class="white-text" style="position: absolute; bottom: 30%; left: 10%;">
-          <h3 style="color: #a20628; text-shadow: 3px 3px #000000"><b>Support The Snowarriors</b></h3>
-          <h5 style="text-shadow: 2px 2px #000000" class="light grey-text text-lighten-3"><b>Click <a style="color: #a20628;" href="https://snowarriors.com/supporters.php">here</a>!</b></h5>
+          <h3 style="color: white text-shadow: 3px 3px #000000"><b>Snowarrior's New Groomer</b></h3>
+          <h5 style="text-shadow: 2px 2px #000000" class="light grey-text text-lighten-3"><b>Click <a style="color: #a20628;" href="https://snowarriors.com/supporters.php">here</a> to support!</b></h5>
           </div>
         </li>
         <li>
           <img src="static/img/home2.JPG"> 
-        </li>
-        <li>
-          <img src="static/img/home5.JPG">
         </li>
         <li>
           <img src="static/img/home6.JPG"> 

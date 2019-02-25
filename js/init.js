@@ -1,6 +1,6 @@
 $( document ).ready(function(){
     $(".button-collapse").sideNav();
-    $('.slider').slider({indicators: false});
+    $('.slider').slider({indicators: false, duration:8000});
     $(".dropdown-button").dropdown({hover: true, belowOrigin:true});
     $('select').material_select();            
     $(".expanded").hide();
